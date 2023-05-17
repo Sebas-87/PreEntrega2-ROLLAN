@@ -23,12 +23,6 @@ label {
     font-family: 'Rubik', sans-serif;
 }
 
-/*NavBar*/
-.header__bg {
-	background: rgba(34, 33, 33, 0.829);
-	background-blend-mode: multiply, multiply, normal;
-}
-
 .navbar-img {
     object-fit: cover;
     border-radius: 1rem;
@@ -321,8 +315,8 @@ div textarea {
     font-size: 24px;
 }
 
-footer {
+/*footer {
     padding: 8px;
     text-align: center;
     margin-top: 50px;
-}
+}*/
