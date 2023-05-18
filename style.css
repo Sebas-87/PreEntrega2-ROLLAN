@@ -31,28 +31,28 @@ label {
 
 /* Personalizar el Navbar */
 
-.navbar a{
-  color: #fff;
+.navbar a {
+    color: #fff;
 }
 
-.navbar .collapse li a{
-  color: #ffffff;
+.navbar .collapse li a {
+    color: #ffffff;
 }
 
-.navbar .collapse.navbar-collapse{
-  flex-grow: inherit;
+.navbar .collapse.navbar-collapse {
+    flex-grow: inherit;
 }
 
-.navbar .navbar-toggler:focus{
-  box-shadow: none;
+.navbar .navbar-toggler:focus {
+    box-shadow: none;
 }
 
-.navbar .navbar-toggler{
-  border: 2px solid #ffffff;
+.navbar .navbar-toggler {
+    border: 2px solid #ffffff;
 }
 
-.navbar .navbar-toggler-icon{
-  background-color: #fff;
+.navbar .navbar-toggler-icon {
+    background-color: #fff;
 }
 
 /* principal */
@@ -131,7 +131,7 @@ label {
 
 /*cards*/
 
-.cards h2 {
+.tarjetas h2 {
     font-size: 40px;
     font-weight: 400;
     margin-bottom: 24px;
@@ -152,7 +152,7 @@ label {
 
 }
 
-.card {
+.tarjeta {
     border-radius: 8px;
     height: 220px;
     display: flex;
@@ -162,13 +162,13 @@ label {
 }
 
 @media (min-width:768px) {
-    .card {
+    .tarjeta {
         padding: 0 0 34px 68px;
     }
 }
 
 @media (min-width: 1280px) {
-    .card {
+    .tarjeta {
         padding: 0 0 32px 17px;
     }
 }
@@ -220,13 +220,13 @@ label {
     }
 }
 
-.cards h2 {
+.tarjetas h2 {
     font-size: 36px;
     font-weight: 500;
 }
 
 @media (min-width: 1280px) {
-    .cards h2 {
+    .tarjetas h2 {
         font-size: 48px;
         font-weight: 500;
     }
@@ -252,6 +252,17 @@ label {
     text-shadow: 1px 1px 8px #fff
 }
 
+/*Carousel*/
+
+.c-item {
+    height: 480px;
+}
+
+.c-img {
+    height: 100%;
+    object-fit: cover;
+}
+
 /*Contacto*/
 
 .main-contact {
@@ -272,7 +283,7 @@ label {
     font-size: 52px;
     font-weight: 700;
     text-align: center;
-    margin:auto;
+    margin: auto;
     padding: 35px 0;
     text-shadow: 2px 1px 12px #363c41
 }
@@ -315,8 +326,13 @@ div textarea {
     font-size: 24px;
 }
 
-/*footer {
-    padding: 8px;
-    text-align: center;
-    margin-top: 50px;
-}*/
+.img__footer {
+    width: 40%;
+    opacity: 0.75;
+}
+
+@media (min-width: 768px) {
+    .img__footer {
+        width: auto;
+    }
+}
